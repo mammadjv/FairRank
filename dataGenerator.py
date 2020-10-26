@@ -46,7 +46,7 @@ def generateUnfairRanking(_ranking,_protected_group,_fairness_probability):
         unfair_ranking=unfair_ranking+pro_ranking
         
     if len(unfair_ranking)<len(_ranking): # check error for insertation
-        print "Error!"
+        print("Error!")
     return unfair_ranking
     
 # Function for error handling
